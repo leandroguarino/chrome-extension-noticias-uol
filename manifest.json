@@ -1,5 +1,5 @@
 {
-  "name": "Minha primeira extensão",
+  "name": "Minha primeira extensão Nova",
   "version": "1.0",
   "description": "Descrição do que faz a extensão",
   "permissions": ["activeTab", "declarativeContent", "storage"],

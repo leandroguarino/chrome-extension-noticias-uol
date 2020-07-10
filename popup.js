@@ -19,6 +19,7 @@ botao.onclick = function(element) {
 
 chrome.runtime.onMessage.addListener(
   function(message, sender, sendResponse){
-    //TODO: receber mensagem
+    $("#loading").hide()
+    $("#news").html(message.titles.map(obj => obj.title + "<br />" + obj.url).join("<br /><br />"))
   }
 );
